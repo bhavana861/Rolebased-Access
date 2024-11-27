@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import RoleAdd from '../components/RoleAdd';
-import { getAllRoleAPI } from '../services/allAPI.JS';
-import { removeRoleAPI } from '../services/allAPI.JS';
+import { getAllRoleAPI } from '../services/allAPI';
+import { removeRoleAPI } from '../services/allAPI';
 
 
 const RoleManagement = () => {

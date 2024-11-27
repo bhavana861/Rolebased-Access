@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import Add from '../components/Add';
 import { Link } from 'react-router-dom';
-import { getAllUserAPI } from '../services/allAPI.JS';
-import { removeUserAPI } from '../services/allAPI.JS';
+import { getAllUserAPI } from '../services/allAPI';
+import { removeUserAPI } from '../services/allAPI';
 
 const UserManagement = () => {
   const [allUser, setAllUser] = useState([]);

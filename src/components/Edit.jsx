@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Modal, Button, FloatingLabel, Form } from 'react-bootstrap';
 import { useNavigate, useParams } from 'react-router-dom';
-import { getEditAPI } from '../services/allAPI.JS';
-import { updateUserAPI } from '../services/allAPI.JS';
+import { getEditAPI } from '../services/allAPI';
+import { updateUserAPI } from '../services/allAPI';
 
 const Edit = () => {
   const [showModal, setShowModal] = useState(true);

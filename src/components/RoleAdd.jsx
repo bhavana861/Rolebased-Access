@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Modal, Button, FloatingLabel, Form } from 'react-bootstrap';
-import { saveRoleAPI } from '../services/allAPI.JS';
+import { saveRoleAPI } from '../services/allAPI';
 
 
 const RoleAdd = ({onRoleAdded,searchQuery, setSearchQuery}) => {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Modal, Button, FloatingLabel, Form } from 'react-bootstrap';
-import { getRoleEditAPI } from '../services/allAPI.JS';
-import { updateRoleAPI } from '../services/allAPI.JS';
+import { getRoleEditAPI } from '../services/allAPI';
+import { updateRoleAPI } from '../services/allAPI';
 
 
 const RoleEdit = () => {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button, FloatingLabel, Form } from 'react-bootstrap';
-import { saveUserAPI } from '../services/allAPI.JS';
+import { saveUserAPI } from '../services/allAPI';
 
 const Add = ({ onUserAdded, searchQuery, setSearchQuery }) => {
   const [showModal, setShowModal] = useState(false);
